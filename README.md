@@ -1,16 +1,10 @@
 # Squashing Multiple Git Commits Into a Single Commit
 
-### Introduction
-
-You've pushed multiple commits to GitHub.
-
-![Multiple Git commits](https://gist.githubusercontent.com/rbpayne/7207ffaca7548ae5ebb6a42e8547db82/raw/fe6b0cbf1793f72bc6d0bf0709d57cc07168eb78/multiple-commits.png)
-
-And you want to merge them all together.
-
-![Squashed Git commits](https://gist.githubusercontent.com/rbpayne/7207ffaca7548ae5ebb6a42e8547db82/raw/ad2d47e88e1ce3a6faa6e7e599d3243615297a87/squashed-commits.png)
-
 This guide will show you how to squash multiple commits together into one single commit using [git-rebase](https://git-scm.com/docs/git-rebase).
+
+Before | After
+--- | ---
+![Multiple Git commits](multiple-commits.png) | ![Squashed Git commits](squashed-commits.png)
 
 ### Prerequisites
 
@@ -146,8 +140,6 @@ To github.com:ryanbrookepayne/ryanbrookepayne.git
 ```
 
 And finally you should see your commits all squashed into one in GitHub.
-
-![Squashed Git commits](https://gist.githubusercontent.com/rbpayne/7207ffaca7548ae5ebb6a42e8547db82/raw/ad2d47e88e1ce3a6faa6e7e599d3243615297a87/squashed-commits.png)
 
 ---
 
